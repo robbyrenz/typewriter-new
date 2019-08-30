@@ -6,7 +6,6 @@
 
 body {
 	background: whitesmoke;
-	font-size: 1.5em;
 }
 
 .keyboard {
@@ -14,5 +13,27 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	min-height: 100vh;
+}
+
+.first-row,
+.second-row,
+.third-row {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.key {
+	border: 2px solid black;
+	border-radius: 5px;
+	padding: 1em;
+	margin-right: 0.3em;
+	margin-bottom: 0.5em;
+}
+
+kbd {
+	font-size: 2em;
 }
 
