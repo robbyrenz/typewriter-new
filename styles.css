@@ -14,11 +14,13 @@ body {
 	justify-content: center;
 	align-items: center;
 	min-height: 100vh;
+	width: 100vw;
 }
 
 .first-row,
 .second-row,
-.third-row {
+.third-row,
+.fourth-row {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -37,3 +39,8 @@ kbd {
 	font-size: 2em;
 }
 
+.spacebar {
+	font-weight: bold;
+	width: 60vh;
+	text-align: center;
+}
