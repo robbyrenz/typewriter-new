@@ -15,12 +15,10 @@ document.addEventListener("DOMContentLoaded", () => {
     audio.currentTime = 0
     audio.play()
   	key.classList.add("playing")
-  	console.log(key)
+  	// console.log(key)
   }
 
   function removeTransition(e) {
   	this.classList.remove("playing")
   }
-
-
 })

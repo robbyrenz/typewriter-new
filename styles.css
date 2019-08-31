@@ -4,8 +4,17 @@
 	box-sizing: border-box;
 }
 
+:root {
+	--border-color: #3C96E8;
+	/*--key-color: #4273FF;*/
+	--key-color: #FF459B;
+}
+
 body {
-	background: whitesmoke;
+	background: url("https://images.unsplash.com/photo-1510442650500-93217e634e4c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1537&q=80");
+	/*background-size: contain;*/
+	background-size: cover;
+	/*background-repeat: no-repeat;*/
 }
 
 .keyboard {
@@ -28,7 +37,7 @@ body {
 }
 
 .key {
-	border: 2px solid black;
+	border: 3px solid var(--border-color);
 	border-radius: 5px;
 	padding: 1em;
 	margin-right: 0.3em;
@@ -43,11 +52,13 @@ body {
 }
 
 kbd {
-	font-size: 2em;
+	font-size: 3em;
+	color: var(--key-color);
 }
 
 .spacebar {
 	font-weight: bold;
-	width: 60vh;
+	width: 27vw;
 	text-align: center;
+	color: var(--key-color);
 }
