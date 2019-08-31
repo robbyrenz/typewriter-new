@@ -33,6 +33,13 @@ body {
 	padding: 1em;
 	margin-right: 0.3em;
 	margin-bottom: 0.5em;
+	transition: all 0.08s ease;
+}
+
+.playing {
+	transform: scale(1.2);
+	border-color: red;
+	box-shadow: 0 0 1rem grey;
 }
 
 kbd {
